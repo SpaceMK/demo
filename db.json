@@ -1,5 +1,5 @@
 {
-  "offers": 
+  "OFFERS": 
     {
       "offers": [
       {
@@ -17,7 +17,7 @@
   ]
 },
 
-  "active_offers" : {
+  "ACTIVE_OFFERS" : {
     "active_offers" : [
     "offer001",
     "offer002",
