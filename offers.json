@@ -2,7 +2,6 @@
   "id": 1,
   "title": "hello",
   "description" : "This is a test",
-  "validUntil" : "2012-04-23T18:25:43.511Z",
   "offer_type" : {
         "cost" : 110,
         "itemAmout" : 10,
