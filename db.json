@@ -1,6 +1,8 @@
 {
-  "offers": [
+  "offers": 
     {
+      "offers": [
+      {
       "id": "offer123",
       "title": "50% off!",
       "description": "Limited-time offer for you.",
@@ -12,7 +14,8 @@
         "product_amount" : "100"
       }
     }
-  ],
+  ]
+},
 
   "active_offers" : {
     "active_offers" : [
