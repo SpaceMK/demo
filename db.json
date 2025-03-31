@@ -1,11 +1,3 @@
 {
-  "id": 1,
-  "title": "hello",
-  "description" : "This is a test",
-  "offer_type" : {
-        "cost" : 110,
-        "itemAmout" : 10,
-        "itemId": "xxxxxxxxxxxx"
-  }
-  
+
 }
