@@ -5,7 +5,8 @@
       "title": "50% off!",
       "description": "Limited-time offer for you.",
       "valid_until": "2025-04-01T23:59:59Z",
-      "offer_type":{
+      "offer_type" : "InAppPurchase",
+      "offer" : {
         "cost": "9.99",
         "product_id" : "xxxxxxxxxxxx",
         "product_amount" : "100"
