@@ -1,8 +1,7 @@
 {
 "OFFERS": 
 {
-  
-    "personalizedOffers": [
+    "offers": [
       {
         "id": "offer_001",
         "title": "Special Discount",
@@ -15,9 +14,7 @@
         },
         "offerPaymentType": "InAppPurchase",
         "offerType": "PersonalizedOffer"
-      }
-    ],
-    "sequentialOffers": [
+      },
       {
         "id": "offer_002",
         "title": "Watch Ad for Reward",
@@ -31,7 +28,7 @@
         "offerType": "SequentialOffer"
       },
       {
-        "id": "offer_004",
+        "id": "offer_003",
         "title": "Special Discount",
         "description": "Get 50% off on your next purchase!",
         "validUntil": "2025-12-31",
@@ -42,11 +39,9 @@
         },
         "offerPaymentType": "InAppPurchase",
         "offerType": "PersonalizedOffer"
-      }
-    ],
-    "generalOffers": [
+      },
       {
-        "id": "offer_003",
+        "id": "offer_004",
         "title": "A little help",
         "description": "Claim 500 coins for free!",
         "validUntil": "2026-01-01",
