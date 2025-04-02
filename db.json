@@ -50,11 +50,10 @@
           "productAmount": 500
         },
         "offerPaymentType": "Free",
-        "offerType": "GeneralOffer"
+        "offerType": "EndlessOffer"
       }
     ]
 },
-
   "ACTIVE_OFFERS" : {
     "activeOffers" : [
     "offer001",
