@@ -1,27 +1,71 @@
 {
-  "OFFERS": 
-    {
-      "offers": [
+"OFFERS": 
+{
+  
+    "personalizedOffers": [
       {
-      "id": "offer123",
-      "title": "50% off!",
-      "description": "Limited-time offer for you.",
-      "valid_until": "2025-04-01T23:59:59Z",
-      "offer_type" : "InAppPurchase",
-      "offer" : {
-        "cost": "9.99",
-        "product_id" : "xxxxxxxxxxxx",
-        "product_amount" : "100"
+        "id": "offer_001",
+        "title": "Special Discount",
+        "description": "Get 50% off on your next purchase!",
+        "validUntil": "2025-12-31",
+        "offer": {
+          "cost": 4.99,
+          "productId": "xxxxxxxxxxxxxx",
+          "productAmount": 1000
+        },
+        "offerPaymentType": "InAppPurchase",
+        "offerType": "PersonalizedOffer"
       }
-    }
-  ]
+    ],
+    "sequentialOffers": [
+      {
+        "id": "offer_002",
+        "title": "Watch Ad for Reward",
+        "description": "Watch an ad to earn 200 coins!",
+        "validUntil": "2025-12-31",
+        "offer": {
+          "productId": "xxxxxxxxxxxxxx",
+          "productAmount": 100
+        },
+        "offerPaymentType": "AdsOffer",
+        "offerType": "SequentialOffer"
+      },
+      {
+        "id": "offer_004",
+        "title": "Special Discount",
+        "description": "Get 50% off on your next purchase!",
+        "validUntil": "2025-12-31",
+        "offer": {
+          "cost": 4.99,
+          "productId": "xxxxxxxxxxxxxx",
+          "productAmount": 1000
+        },
+        "offerPaymentType": "InAppPurchase",
+        "offerType": "PersonalizedOffer"
+      }
+    ],
+    "generalOffers": [
+      {
+        "id": "offer_003",
+        "title": "A little help",
+        "description": "Claim 500 coins for free!",
+        "validUntil": "2026-01-01",
+        "offer": {
+          "productId": "xxxxxxxxxxxxxx",
+          "productAmount": 500
+        },
+        "offerPaymentType": "Free",
+        "offerType": "GeneralOffer"
+      }
+    ]
 },
 
   "ACTIVE_OFFERS" : {
-    "active_offers" : [
+    "activeOffers" : [
     "offer001",
     "offer002",
-    "offer003"
+    "offer003",
+    "offer004"
     ]
   }
 }
