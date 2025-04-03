@@ -1,6 +1,10 @@
 {
-"OFFERS": 
-{
+  "user":
+  {
+    "xxxxxxx":
+    {
+      "offers": 
+    { 
     "offers": [
       {
         "id": "offer_001",
@@ -54,12 +58,14 @@
       }
     ]
 },
-  "ACTIVE_OFFERS" : {
-    "activeOffers" : [
+  "active" : {
+    "active" : [
     "offer001",
     "offer002",
     "offer003",
     "offer004"
     ]
+  }
+    }
   }
 }
