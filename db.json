@@ -29,8 +29,8 @@
       },
       {
         "id": "offer_003",
-        "title": "Special Discount",
-        "description": "Get 50% off on your next purchase!",
+        "title": "Very Special Discount",
+        "description": "Get 90% off on your next purchase!",
         "validUntil": "2025-12-31",
         "offer": {
           "cost": 4.99,
@@ -50,7 +50,7 @@
           "productAmount": 500
         },
         "offerPaymentType": "Free",
-        "offerType": "GeneralOffer"
+        "offerType": "EndlessOffer"
       }
     ]
   },
